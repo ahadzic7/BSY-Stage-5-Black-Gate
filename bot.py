@@ -126,10 +126,10 @@ class Bot:
 
 def main():
     bot = Bot(
-        "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", #ghp
-        "5e04cd359c9b408d49323e7db6c44d3d", #gistID
-        "JNLMdvOpy4bHA7nvYqgL2P30AmeMzsVSlGbHn8NuueU="  #32bit key received from controller
+        "", #Github Personal Access Token
+        "", #ID of the gist used
+        ""  #32b key from the controller
     )
 
-if __name__== "__main__":
+if __name__ == "__main__":
     main()
